@@ -7,7 +7,7 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {//                 0   1   2   3   4
-         int[] array = { 11, 22, 33, 44, 55 };
+        int[] array = { 11, 22, 33, 44, 55 };
         for (int KK = 0; KK < 5; KK++)
         {
             Debug.Log(array[KK]);
@@ -22,6 +22,6 @@ public class Test : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
